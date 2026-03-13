@@ -1,0 +1,30 @@
+services:
+  # Frontend Service
+  - type: web
+    name: portfolio-frontend
+    env: node
+    repo: https://github.com/your-username/portfolio
+    rootDir: .
+    buildCommand: npm run build
+    startCommand: npm run start
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_PUBLIC_API_URL
+        value: https://your-backend-name.onrender.com
+
+  # Backend Service (Optional)
+  - type: web
+    name: portfolio-backend
+    env: node
+    repo: https://github.com/your-username/portfolio
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
