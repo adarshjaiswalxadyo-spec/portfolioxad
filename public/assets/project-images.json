@@ -1,0 +1,53 @@
+{
+  "image_guide": "Replace these placeholder URLs with your actual project screenshots",
+  "recommended_specs": {
+    "width": 800,
+    "height": 600,
+    "format": "JPG or PNG",
+    "quality": "High quality, compressed for web",
+    "naming": "Use descriptive names like 'browser-interface.jpg', 'ecommerce-dashboard.png'"
+  },
+  "projects": {
+    "browser": {
+      "placeholder": "project1-browser.jpg",
+      "suggested_url": "https://your-domain.com/images/browser-interface.jpg",
+      "description": "Browser interface screenshot showing main navigation and features"
+    },
+    "emulator": {
+      "placeholder": "project2-emulator.jpg", 
+      "suggested_url": "https://your-domain.com/images/emulator-interface.jpg",
+      "description": "Emulator interface showing system emulation in action"
+    },
+    "minibrow": {
+      "placeholder": "project3-minibrow.jpg",
+      "suggested_url": "https://your-domain.com/images/minibrow-interface.jpg", 
+      "description": "Mini browser interface showing compact design"
+    },
+    "games": {
+      "placeholder": "project4-games.jpg",
+      "suggested_url": "https://your-domain.com/images/games-collection.jpg",
+      "description": "Games mini collection showing multiple game interfaces"
+    },
+    "students-hub": {
+      "placeholder": "project5-students-hub.jpg",
+      "suggested_url": "https://your-domain.com/images/students-hub-dashboard.jpg",
+      "description": "Students hub dashboard showing resources and tools"
+    },
+    "ecommerce": {
+      "placeholder": "project6-ecommerce.jpg", 
+      "suggested_url": "https://your-domain.com/images/ecommerce-store.jpg",
+      "description": "E-commerce mini store showing product catalog and cart"
+    }
+  },
+  "certificates": {
+    "guide": "Add your actual certificate images (JPG/PNG format)",
+    "naming": "certificate1.jpg, certificate2.jpg, etc.",
+    "dimensions": "800x600px recommended"
+  },
+  "videos": {
+    "guide": "Replace MP4 placeholders with actual video files",
+    "formats": ["MP4 (H.264)", "WebM"],
+    "resolution": "1920x1080 or 1280x720",
+    "compression": "Optimize for web streaming"
+  }
+}

@@ -1,0 +1,39 @@
+<!-- Weather Dashboard Project Placeholder -->
+<!-- Replace with actual screenshot of your Weather Dashboard project -->
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="weatherGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#weatherGrad)"/>
+  
+  <!-- Main Card -->
+  <rect x="50" y="50" width="700" height="500" rx="20" fill="rgba(255,255,255,0.1)" stroke="white" stroke-width="2"/>
+  
+  <!-- Weather Display -->
+  <text x="400" y="120" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">Weather Dashboard</text>
+  
+  <!-- Temperature -->
+  <text x="400" y="250" font-family="Arial" font-size="72" font-weight="bold" fill="white" text-anchor="middle">72°F</text>
+  <text x="400" y="290" font-family="Arial" font-size="24" fill="white" text-anchor="middle">Partly Cloudy</text>
+  
+  <!-- Weather Icon -->
+  <text x="400" y="350" font-family="Arial" font-size="80" fill="white" text-anchor="middle">⛅</text>
+  
+  <!-- Details -->
+  <rect x="100" y="400" width="150" height="100" rx="10" fill="rgba(255,255,255,0.2)"/>
+  <text x="175" y="430" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Humidity</text>
+  <text x="175" y="460" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">65%</text>
+  
+  <rect x="325" y="400" width="150" height="100" rx="10" fill="rgba(255,255,255,0.2)"/>
+  <text x="400" y="430" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Wind</text>
+  <text x="400" y="460" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">12 mph</text>
+  
+  <rect x="550" y="400" width="150" height="100" rx="10" fill="rgba(255,255,255,0.2)"/>
+  <text x="625" y="430" font-family="Arial" font-size="16" fill="white" text-anchor="middle">UV Index</text>
+  <text x="625" y="460" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">6</text>
+</svg>
